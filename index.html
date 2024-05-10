@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nike</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+font-family:'open sans';
+}
+.contenedor{
+padding:60px 0;
+width:90%;
+max-width:1000px;
+margin:auto;
+overflow:hidden;
+}
+.puno{
+text-align:left;
+color:#f07719;
+font-family:book antiqua;
+}
+.pdos{
+text-align:center;
+color:#f07719;
+font-family:book antiqua;
+}
+.ptres{
+text-align:right;
+color:#f07719;
+font-family:book antiqua;
+}
+.titulo{
+color:#f07719;
+font-size:30px;
+text-align:center;
+margin-bottom:60px;
+}
+/*header*/
+header{
+width:100%;
+height:600px;
+background:#793602;
+background:-webkit-linear-gradient(to right, hsla(0, 0%, 92%, 0.459), hsla(0, 0%, 86%, 0.459), hsla(0, 0%, 95%, 0.669), hsla(50, 12%, 63%, 0.669)), url();
+background:linear-gradient(to right, hsla(0, 0%, 92%, 0.459), hsla(0, 0%, 86%, 0.459), hsla(0, 0%, 95%, 0.669), hsla(0,50, 12%, 63%, 0.669)), url();
+background-size:cover;
+background-attachment:fixed;
+position:relative;
+}
+header .textos-header{
+display:flex;
+height:430px;
+width:100%;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+text-align:center;
+}
+.textos-header h1{
+font-size:40px;
+color:#fff;
+}
+.textos-header h2{
+font-size:30px;
+font-weight:300;
+color:#fff;
+}
+/*sobre nike*/
+.contenedor-sobre-nike{
+display:flex;
+justify-content:space-evenly;
+}
+.imagen-nike{
+width:48%;
+height:300px;
+width:300px;
+border-radius:5px 5px 5px 5px;
+margin:auto;
+}
+/*medidas*/
+.cont-medidas{
+display:flex;
+justify-content:space-evenly;
+}
+.cont-medidas .t1,
+.t2{
+width:48%;
+}
+.t1, 
+.t2{
+border-collapse:collapse;
+margin:25px  0;
+font-size:0.9em;
+min-width:400px;
+}
+.t1 thead th,
+.t2 thead th{
+background-color:#d39d73;
+color:#fff;
+text-align:center;
+}
+.t1 th, td
+.t2 th, td{
+padding:12px 15px;
+}
+.t1 tbody tr,
+.t2 tbody tr{
+border-bottom:1px solid #dddddd;
+}
+.list-nike{
+width:48px;
+}
+ul{
+list-style-position:outside;
+}
+li{
+font-weight:300;
+text-align:justify;
+}
+.list-nike h3{
+color:#d39d73;
+font-size:0.9em;
+}
+/*link*/
+.link{
+background-color:#ed9c5c;
+display:flex;
+justify-content:space-evenly;
+padding:25px;
+height:60%;
+border-radius:5px 5px 5px 5px;
+}
+.link-texto{
+height:40%;
+font-size:30px;
+text-align:center;
+}
+.container img{
+width:300px;
+height:300px;
+margin:0 10px;
+border-radius:5px 5px 5px 5px;
+}
+.container embed{
+width:300px;
+height:300px;
+margin:0 10px;
+}
+h4{
+font-weight:300;
+text-align:center;
+color:#b0794e;
+}
+</style>
+</head>
+<body>
+<header>
+<section class="textos-header">
+<h1>NIKE</h1>
+</section>
+</header>
+<main>
+<section class="contenedor sobre-nike">
+<h2 class="titulo">Sobre Nike</h2>
+<div class="contenedor-sobre-nike">
+<p class="puno">El nacimiento de la famosa marca de calzado Nike, surgió por la motivación de un curioso entrenador de atletismo de la Universidad<br>
+de Oregon, Bill Bowerman, cuando en 1950 intentó darles ventaja a sus deportistas durante las competencias.</p>
+<p class="pdos">Uno de sus alumnos fue Phil Knight, que como amante del deporte quiso ser parte del equipo de Bowerman. A la medida que<br>
+fueron integrándose, durante largas charlas, llegaron a la conclusión que era necesario realizarle modificaciones al calzado de competencia.</p>
+<p class="ptres">Dichas disertaciones, sería lo que los motivo a redactar una propuesta a algunas compañías manufactureras de calzado en Japón,<br>
+para persuadirlos de realizar modificaciones a sus productos y ganar el dominio de la industria del calzado deportivo en Estados Unidos.</p>
+</div>
+</section>
+<section class="medidas">
+<div class="contenedor">
+<h2 class="titulo">MEDIDAS</h2>
+<div class="cont-medidas">
+<table class="t1">
+<thead>
+<tr>
+<th>Centímetros</th>
+<th>US</th>
+<th>EU</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>22</td>
+<td>5</td>
+<td>35.5</td>
+</tr>
+<tr>
+<td>22.5</td>
+<td>5.5</td>
+<td>36</td>
+</tr>
+<tr>
+<td>23</td>
+<td>6</td>
+<td>36.5</td>
+</tr>
+<tr>
+<td>23.5</td>
+<td>6.5</td>
+<td>37.5</td>
+</tr>
+<tr>
+<td>24</td>
+<td>7</td>
+<td>38</td>
+</tr>
+</tbody>
+</table>
+<div class="list-nike">
+<h3>Estilos populares:</h3>
+<ul>
+<li>Nike Air Force 1</li>
+<li>Nike Air Max</li>
+<li>Nike Cortez</li>
+<li>Nike Air Jordan</li>
+<li>Nike Free</li>
+<ul>
+</div>
+</div>
+</div>
+</section>
+<br>
+<br>
+<center>
+<img src="./Imágenes/n1.jpg" class="imagen-nike">
+</center>
+<section class="link">
+<div class="link-texto">
+<a target="_blank" href="https://www.nike.com/mx">Página oficial</a>
+<div class="container">
+<img src="./Imágenes/n2.jpg">
+<embed src="./Videos/nike.MP4">
+<img src="./Imágenes/n3.jpg">
+</div>
+</div>
+</section>
+<div class="contenedor">
+<h2 class="titulo">MEDIDAS</h2>
+<table class="t2">
+<thead>
+<tr>
+<th>Centímetros</th>
+<th>US</th>
+<th>EU</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>24.5</td>
+<td>7.5</td>
+<td>38.5</td>
+</tr>
+<tr>
+<td>25</td>
+<td>8</td>
+<td>39</td>
+</tr>
+<tr>
+<td>25.5</td>
+<td>8.5</td>
+<td>40</td>
+</tr>
+<tr>
+<td>26</td>
+<td>9</td>
+<td>40.5</td>
+</tr>
+<tr>
+<td>26.5</td>
+<td>9.5</td>
+<td>41</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br>
+<br>
+<hr>
+<h4>Alumna: Mireles Diego.<br>
+"Todo lo que pasa es parte del proceso"<br>
+Materia:DAC/DAS.<br>
+Prof. Bertha Pérez.</h4>
+</main>
+</body>
+</html>
